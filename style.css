@@ -1,0 +1,58 @@
+body{
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
+}
+
+#result{
+    text-align: center;
+}
+
+#continue{
+    text-align: center;
+}
+
+#button-wrapper{
+    display:flex;
+    justify-content: center;
+}
+
+.hide{
+    display: none;
+}
+
+#board-wrapper{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+}
+
+.cell{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom{
+    border-bottom: 3px solid black;
+}
+
+.right{
+    border-right: 3px solid black;
+}
